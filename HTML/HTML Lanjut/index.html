@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum6 - Maulana Fahmi</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0;
+            display: flex; 
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer { 
+            background-color: #333; 
+            color: #fff; 
+            text-align: center; 
+            padding: 15px; 
+        }
+        nav { 
+            background-color: #636161; 
+            display: flex; 
+            justify-content: center; 
+            gap: 15px; 
+            padding: 10px 0;
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            padding: 5px 10px; 
+        }
+        nav a:hover { 
+            background-color: #666; 
+        }
+        .main-body {
+            display: flex;
+            flex: 1;
+        }
+        .content { 
+            background-color: #faf3d4; 
+            width: 75%; 
+            padding: 15px; 
+        }
+        .sidebar { 
+            background-color: #ffa500; 
+            width: 25%; 
+            padding: 15px; 
+        }
+        footer { 
+            background-color: #222; 
+        }
+        .logo img { 
+            width: 80px; 
+            vertical-align: middle; 
+        }
+        .highlight { 
+            font-weight: bold; 
+            color: red; 
+        }
+    </style>
+</head>
+<body>
+ <section id="Beranda">
+    <header>
+        <div class="logo">
+            <img src="IMAGE/Logo_Politbang.png" alt="Logo Polibang">
+            <img src="IMAGE//Logo Rpl.png" alt="Logo_RPL">
+        </div>
+        <h1>Politeknik Balekambang</h1>
+        <h2>Program Studi Rekayasa Perangkat Lunak</h2>
+    </header>
+
+    <nav>
+        <a href="#Beranda">Beranda</a>
+        <a href="#visi-misi">Visi & Misi</a>
+        <a href="https://www.polibang.ac.id" target="_blank">Situs Polibang</a>
+        <a href="../tag_from.html">Formulir </a>
+    </nav>
+
+    <div class="main-body">
+        <section class="content">
+            <h2 id="visi-misi">Visi & Misi Program Studi RPL</h2>
+            <p><strong>Visi:</strong> Menjadi program studi unggulan dalam pengembangan perangkat lunak berbasis teknologi terbaru.</p>
+            <p><strong>Misi:</strong></p>
+            <ul>
+                <li>Menyelenggarakan pendidikan berkualitas di bidang rekayasa perangkat lunak.</li>
+                <li>Meningkatkan penelitian dan inovasi di bidang perangkat lunak.</li>
+                <li>Memperluas kerja sama dengan industri perangkat lunak.</li>
+            </ul>
+            <h3>Nama Dosen Prodi RPL</h3>
+            <ul>
+                <li>Indra Kurniawan, M.Kom</li>
+                <li>Sofia Ulfah, M.Kom</li>
+                <li>Ahlis Noor Kholili, M.Kom</li>
+                <li>Faiq Abror, M.Pd</li>
+            </ul>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Teman Kelas</h3>
+            <ul>
+                <li><a href="../HTML Lanjut/Akhyar.html">Akhyar</a></li>
+                <li><a href="../HTML Lanjut/Alfin.html">Alfin</a></li>
+                <li><a href="../HTML Lanjut/Zaka.html">Zaka</a></li>
+            </ul>
+            <div id="friend-info">
+                <p>Pilih nama teman untuk melihat identitas.</p>
+            </div>
+        </aside>
+    </div>
+</section>
+    <footer>    
+        <p>&copy; 2024 Fahmyy. All Rights Reserved.</p>
+        <p>Alamat: Jl. Getassrabi 01, Gebog, Kudus</p>
+    </footer>
+</body>
+</html>
